@@ -24,7 +24,7 @@ function draw() {
     textSize(48);
     textAlign(CENTER, CENTER);
     fill('#ffffff');  // 白色文字
-    text('賴思米', width/2, height/2);
+    text('教科一B 賴思米', width/2, height/2);
     pop();
 
     if (frameCount % int(random([40, 80])) == 0) {
